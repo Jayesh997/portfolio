@@ -43,7 +43,7 @@ const Projects = () => {
             <details>
                 <summary>SketchSpace.</summary> 
             <ul>
-                <li><a target='_blank' href='https://jayesh997.github.io/SketchSpace/index.html'>https://jayesh997.github.io/SketchSpace/index.html</a></li>
+                <li><a target='_blank' href='https://jayesh997.github.io/SketchSpace/'>https://jayesh997.github.io/SketchSpace/index.html</a></li>
                 <li>Created a Blog/ personal website using HTML5, CSS3 JavaScript to keep track of Sketches and drawings I made.</li>
             </ul>
             </details>
