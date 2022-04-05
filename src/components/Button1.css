@@ -1,0 +1,72 @@
+.button1 {
+ position: relative;
+ padding: 19px 36px;
+ display: block;
+ text-decoration: none;
+ text-transform: uppercase;
+ overflow: hidden;
+ border-radius: 40px;
+ border: none;
+ 
+}
+
+.button1 a{
+    text-decoration: none;
+}
+.button1 span {
+ position: relative;
+ color: #fff;
+ font-family: Arial;
+ letter-spacing: 8px;
+ z-index: 1;
+ text-align: center;
+}
+
+.button1 .liquid {
+ position: absolute;
+ top: -80px;
+ left: 0;
+ width: 100%;
+ height: 200px;
+ background: #3298b4;
+ box-shadow: inset 0 0 50px rgba(151, 23, 163, 0.5);
+ transition: .5s;
+}
+
+.button1 .liquid::after,
+.button1 .liquid::before {
+ content: '';
+ width: 200%;
+ height: 200%;
+ position: absolute;
+ top: 0;
+ left: 50%;
+ transform: translate(-50%, -75%);
+ background: #fff;
+}
+
+.button1 .liquid::before {
+ border-radius: 45%;
+ background: rgb(89, 12, 141);
+ animation: animate 5s linear infinite;
+}
+
+.button1 .liquid::after {
+ border-radius: 40%;
+ background: rgba(8, 104, 91, 0.5);
+ animation: animate 10s linear infinite;
+}
+
+.button1:hover .liquid {
+ top: -120px;
+}
+
+@keyframes animate {
+ 0% {
+  transform: translate(-50%, -75%) rotate(0deg);
+ }
+
+ 100% {
+  transform: translate(-50%, -75%) rotate(360deg);
+ }
+}

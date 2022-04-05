@@ -1,0 +1,122 @@
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+     background-color: #f9f9f9;
+     z-index: 2500;
+     /* overflow-x: hidden; */
+       
+}
+
+.logo{
+    width: 5em;
+    cursor: pointer;
+}
+#home:hover{
+    color: #46889c;
+}
+#about:hover{
+    color: #46889c;
+}
+#resume:hover{
+    color: #46889c;
+}
+ul{
+color :rgb(0, 0, 0);
+}
+.desktop-menu{
+    z-index: 2500;
+    padding: 0 2em 0 2em;
+    width: 100%;
+    background-color: #f9f9f9;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desktop-menu ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    /* border: solid; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.desktop-menu ul li{
+    font-weight: 700;
+    margin: 1.5em;
+    cursor: pointer;
+    
+}
+
+/* ------------MOBILE MENU------------------- */
+.mobile-menu {
+    width: 100%;
+    z-index: 2500;
+    background-color: #f9f9f9;
+    padding: 0 2em 0 2em;
+    /* border: solid; */
+}
+
+.hamburger-icon{
+     margin-top: .7em;
+    color:#46889c ;
+    /* font-size: 5rem; */
+    /* border: solid; */
+}
+.logo-mobile{
+    z-index: 50;
+    margin-top: 1.6em;
+    top: 0;
+    width: 7rem;
+    position: absolute;
+    right: 0;
+    /* border: solid; */
+}
+.mobile-menu ul{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    font-size: 2.5rem;
+    list-style: none;
+    /* display: none; */
+    transition:  300ms ease;
+    background-color: #f9f9f9;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+      transition: all 1000ms ease-in-out;
+}
+.mobile-menu ul li{
+    cursor: pointer;
+    margin: 1em;
+    
+    
+    /* border: solid; */
+    transition: all 1000ms ease-in-out;
+}
+
+
+.ul-active{
+    left: 0;
+    /* display: block; */
+}
+.ul-inactive{
+    left: -1000vw;
+    /* display: none; */
+}
+
+
+.active{
+    /* display: block; */
+    color: #489c8c;
+    /* text-decoration: underline; */
+}
+
+

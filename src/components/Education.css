@@ -1,0 +1,51 @@
+.education{
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px rgb(85, 172, 184);
+    /* border: solid; */
+    padding: 1em;
+    margin: .5em;
+    border-radius: 5px;
+}
+
+.education section{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.education button{
+border: none;
+ 
+ padding: 0.7em;
+ /* font-size: 18px; */
+ border-radius: 5px;
+ background: #78d0d3;
+ border: 1px solid #e8e8e8;
+ transition: all .3s;
+ box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+}
+
+.education button:hover {
+ border: 1px solid white;
+}
+
+.education button:active {
+ box-shadow: 4px 4px 12px #c5c5c5,
+             -4px -4px 12px #ffffff;
+
+}
+
+
+details{
+    /* border: solid; */
+    margin-top: .7em;
+}
+
+details ul{
+    margin-left: 2em;
+    /* border: solid; */
+}
+details ul li {
+ margin-top: .5em;
+}
