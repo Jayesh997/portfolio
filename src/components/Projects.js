@@ -20,7 +20,7 @@ const Projects = () => {
             <details>
                 <summary>Portfolio Website</summary> 
             <ul>
-                <li><a target='_blank' href='https://jayesh997.github.io/meme-gen/'>https://jayesh997.github.io/meme-gen/</a></li>
+                <li><a target='_blank' href='https://jayesh997.github.io/portfolio/'>https://jayesh997.github.io/portfolio/</a></li>
                 <li>Created a portfolio website using ReactJS, CSS3 and JavaScript.</li>
             </ul>
             </details>
