@@ -1,27 +1,27 @@
+/* https: //www.fontspace.com/sunnydays-font-f14449 */
 nav{
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
-     background-color: #f9f9f9;
-     z-index: 2500;
-     /* overflow-x: hidden; */
+    background-color: #f9f9f9;
+    z-index: 2500;
        
 }
 
 .logo{
-    width: 5em;
+    width: 7em;
     cursor: pointer;
 }
 #home:hover{
-    color: #46889c;
+    color:#086de4;
 }
 #about:hover{
-    color: #46889c;
+    color:#086de4;
 }
 #resume:hover{
-    color: #46889c;
+    color:#086de4;
 }
 ul{
 color :rgb(0, 0, 0);
@@ -35,6 +35,7 @@ color :rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 .desktop-menu ul{
     width: 100%;
@@ -64,7 +65,7 @@ color :rgb(0, 0, 0);
 
 .hamburger-icon{
      margin-top: .7em;
-    color:#46889c ;
+    color:#086de4;
     /* font-size: 5rem; */
     /* border: solid; */
 }
@@ -91,7 +92,7 @@ color :rgb(0, 0, 0);
     align-items: center;
     /* justify-content: center; */
     flex-direction: column;
-      transition: all 1000ms ease-in-out;
+    transition: all 300ms ease-in-out;
 }
 .mobile-menu ul li{
     cursor: pointer;
@@ -115,7 +116,7 @@ color :rgb(0, 0, 0);
 
 .active{
     /* display: block; */
-    color: #489c8c;
+    color: #086de4;
     /* text-decoration: underline; */
 }
 

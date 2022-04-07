@@ -41,7 +41,7 @@ const Nav = () => {
     <MediaQuery minWidth={0} maxWidth={700}>
     
     <div className='mobile-menu'>
-    <h1 className='hamburger-icon' onClick={()=>setShowMenu(!showMenu)}><Hamburger size={50} distance="lg" color="#489c8c" rounded direction="right" toggled={showMenu} toggle={setShowMenu} /></h1>
+    <h1 className='hamburger-icon' onClick={()=>setShowMenu(!showMenu)}><Hamburger size={50} distance="lg" color="#086de4" rounded direction="right" toggled={showMenu} toggle={setShowMenu} /></h1>
     <Link to="home-id" spy={true} smooth={true} offset={-50} duration={500} ><img className='logo-mobile' src={Logo}/></Link>
 
     <ul onClick={()=>setShowMenu(!showMenu)} className={showMenu?'ul-active': 'ul-inactive'}>

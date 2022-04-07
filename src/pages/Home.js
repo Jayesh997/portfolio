@@ -23,9 +23,9 @@ const Home = () => {
         </div>
         <img src={home}/>
         </div>
-         <MediaQuery minWidth={700}>
+         {/* <MediaQuery minWidth={950}> */}
          <Waves></Waves>
-         </MediaQuery>
+         {/* </MediaQuery> */}
     </div>
   )
 }

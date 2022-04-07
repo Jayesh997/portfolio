@@ -48,6 +48,7 @@ border: none;
 details{
     /* border: solid; */
     margin-top: .7em;
+    word-wrap: break-word;
 }
 
 details ul{
@@ -55,5 +56,6 @@ details ul{
     /* border: solid; */
 }
 details ul li {
+    
  margin-top: .5em;
 }

@@ -3,7 +3,8 @@ import './Waves.css'
 const Waves = () => {
   return (
     <>
-        <div class="ocean">
+    <div class="ocean">
+  <div class="wave"></div>
   <div class="wave"></div>
   <div class="wave"></div>
 </div>
